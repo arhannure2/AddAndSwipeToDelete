@@ -1,0 +1,9 @@
+<resources>
+	<string name="app_name">AddAndSwipeToDelete</string>
+	<string name="app_name_title_display">Add &amp;  Swipe To Delete</string>
+	<string name="description">Description</string>
+	<string name="yes">Delete</string>
+	<string name="no">Dismiss</string>
+	<string name="delete_confirmation_msg">Are you sure want to delete this item?</string>
+	<string name="delete_confirmation_title">Delete</string>
+</resources>

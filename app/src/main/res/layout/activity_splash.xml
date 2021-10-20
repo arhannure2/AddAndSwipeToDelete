@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+            android:id="@+id/splashLogoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivSplashLogo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher_delete"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/splashTextLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_below="@+id/ivSplashLogo"
+                >
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvSplashText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/app_name_title_display"
+                    android:textAlignment="gravity"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    />
+
+            </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
